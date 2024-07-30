@@ -1,2 +1,2 @@
-# college-dsa
-All my ssource codes for DSA problems given in my college.
+# college-stuff
+All my ssource codes for CS problems given in my college.
