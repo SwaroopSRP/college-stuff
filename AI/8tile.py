@@ -76,7 +76,9 @@ def print_solution(solution):
 
 def print_state(state):
     for i in range(3):
-        print(state[i * 3:(i + 1) * 3])
+        for num in state[i * 3:(i + 1) * 3]:
+            print(num, end="  ")
+        print()
 
 
 if __name__ == "__main__":
