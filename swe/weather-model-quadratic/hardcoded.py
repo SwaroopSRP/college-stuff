@@ -6,5 +6,5 @@ if __name__ == "__main__":
     b = -3
     c = 28
     t = 5
-    print(getTemp(a, b, c, t))
+    print(f"Predicted temperature at T({t}): {getTemp(a, b, c, t)}")
 
