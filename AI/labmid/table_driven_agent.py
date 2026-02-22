@@ -38,3 +38,12 @@ def vacuum_reflex_agent(state):
 
     print("\nAll rooms are clean.")
     print("Final State:", state)
+
+
+state = {
+    "location": "A",
+    "A": "Dirty",
+    "B": "Dirty"
+}
+
+vacuum_reflex_agent(state)
