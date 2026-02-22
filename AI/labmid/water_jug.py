@@ -43,3 +43,5 @@ def water_jug_bfs(cap1, cap2, goal):
                 queue.append((state, path + [state]))
 
     return None
+
+print(water_jug_bfs(4, 3, 2))
