@@ -28,3 +28,14 @@ def bfs_shortest_path(graph, start, goal):
                 queue.append((neighbor, path + [neighbor]))
 
     return None   # If no path exists
+
+graph = {
+    "A": ["B", "C"],
+    "B": ["D", "E"],
+    "C": ["F"],
+    "D": [],
+    "E": ["F"],
+    "F": []
+}
+
+print(bfs_shortest_path(graph, "A", "F"))
