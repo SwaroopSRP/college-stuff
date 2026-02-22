@@ -35,12 +35,12 @@ def ucs_shortest_path(graph, start, goal):
     return None
 
 graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
+    "A": [("B", 1), ("C", 4)],
+    "B": [("D", 2), ("E", 5)],
+    "C": [("F", 1)],
     "D": [],
-    "E": ["F"],
+    "E": [("F", 1)],
     "F": []
 }
 
-print(bfs_shortest_path(graph, "A", "F"))
+print(ucs_shortest_path(graph, "A", "F"))
